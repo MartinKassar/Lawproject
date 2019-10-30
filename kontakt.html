@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+
+
+<head>
+
+  <title>Law</title>
+
+  <link href="style.css" rel="stylesheet">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+
+<body>
+
+  <header id="showcase">
+    <label for="toggle" id="label">&#9776;</label>
+    <input type="checkbox" id="toggle">
+    <nav>
+      <ul>
+        <li><a href="index.html"><strong>Hem</strong></a></li>
+        <li><a href="personal.html"><strong>Personal</strong></a></li>
+        <li><a href="om.html"><strong>Om oss</strong></a></li>
+        <li><strong>Kontakt</strong></li>
+      </ul>
+    </nav>
+    
+
+    <h1>Kontakt</h1>
+
+  </header>
+
+  <section id="section-c">
+    <div class="contact">
+      <h1 class="h1">Kontakta oss</h1>
+
+      <p>Vi tar gärna emot era frågor och ärenden. Beroende på hur 
+      mycket vi har på gång så svarar vi vanligtvist inom 2-3 arbetsdagar. Vid akuta ärenden
+      så är det bättre att ni ringer oss på <strong>0735236426</strong> eller till
+      någon av våra medarbetare. Ni är också såklart välkomna att besöka oss på 
+      <strong>Kassarsvägen 72</strong> mellan <strong>08:00-16:00</strong>, Vi bjuder självklart på fika!</p>
+
+    </div>
+
+
+  </section>
+
+  <section id="section-d">
+
+  
+    <form class="inner">
+      <fieldset>
+        <legend>Kontaktformulär</legend>
+
+        <label for="firstname">Förnamn</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Ditt förnamn.." required>
+        <br>
+        <br>
+        <label for="lastname">Efternamn</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Ditt efternamn.." required>
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Din email.." required>
+        <br>
+        <br>
+        <label for="about">Typ av ärende</label>
+        <select id="about" name="about" required>
+          <option selected disabled>Välj ärende</option>
+          <option value="arvsrätt">Arvsrätt</option>
+          <option value="brottmål">Brottmål</option>
+          <option value="konsumenträtt">Konsumenträtt</option>
+          <option value="annat">Annat</option>
+
+        </select>
+        <br>
+        <br>
+        <label for="beskrivning">Beskrivning av ärende</label>
+        <textarea id="details" name="details" placeholder="Skriv ditt ärende.." rows="8" cols="50" required></textarea>
+
+        <br>
+        <br>
+        <label for="submit">Tryck på knappen för att skicka</label>
+        <input type="submit" id="stylebut">
+
+
+      </fieldset>
+
+    </form>
+
+</section>
+
+</body>
