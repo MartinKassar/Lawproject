@@ -29,7 +29,7 @@ TA BORT BR
   background-image: url(picture2.jpeg);
   background-size: cover;
   background-position: 50% 10%;
-  height: 60vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -247,10 +247,21 @@ input {
     margin-top: 10px;
     
     }
-    
-    #toggle {
-      display: none;
-    }
+  
+    footer {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 10px;
+      background-color: #926239;
+      text-align: center;
+  } 
+
+  footer p {
+    color: #f4f4f4;
+  }
+ 
 
 #stylebut:hover {
         background: #926239;
@@ -258,24 +269,13 @@ input {
         cursor: pointer;
     }
 
-    @media screen and (max-width: 831px) {
-        /*nav, ul, li {
+    @media screen and (max-width: 375px) {
+        nav, ul, li {
             display: flex;
             flex-direction: column;
             left: 0%;
-        } */
-        nav {
-          display: none;
         }
-        #label {
-          display: block;
-        }
-        #toggle:checked + nav {
-          display: block;
-          width: 100%;
-          text-align: center;
-          margin-top: 20px;
-        }
+        
         .button {
           display: none;
         }
