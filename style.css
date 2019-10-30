@@ -20,6 +20,8 @@ body {
 TODO: kosnadsfri rådgivning
 background: #f4f4f4;
 Göra en mobilanpassad "showcase", där hamburgarmenyn ska få plats
+TA BORT BR
+Ändra VH på showcase i flikar
 */
  
 
@@ -59,6 +61,7 @@ Göra en mobilanpassad "showcase", där hamburgarmenyn ska få plats
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 10px;
+    
 }
 
  
@@ -113,7 +116,11 @@ Göra en mobilanpassad "showcase", där hamburgarmenyn ska få plats
     /*box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.75);*/
 }
 
- 
+ .por1:hover {
+  
+   box-shadow: 5px 5px 15px rgb(0,0,0,0.6);
+   
+ }
 
 .text {
     padding: 15px 20px;
@@ -210,19 +217,26 @@ strong {
 }
 
 .inner {
-    max-width: 900px;
+    max-width: 600px;
     margin: 0 auto;
-    flex: 1;
 
 }
+
 fieldset, form {
     padding: 20px;
+    
     }
     
-    input {
+input {
       padding: 6px;
       color: brown;
     }
+    
+  fieldset {
+    display: flex;
+    flex-direction: column;
+  }
+
     
 #stylebut {
     font-size: 18px;
