@@ -157,10 +157,6 @@ TA BORT BR
     
 }
 
-#section-a {
- 
-}
-
 
 nav {
     text-align: center;
@@ -266,7 +262,13 @@ input {
     color: #f4f4f4;
   }
  
-
+  .active {
+      background: white;
+  }
+  .localnav a {
+    
+    color: #926239;
+  }
 #stylebut:hover {
         background: #926239;
         color: #fff;
