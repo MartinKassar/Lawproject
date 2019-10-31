@@ -8,13 +8,17 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     font-family: butler;
     font-size: 20px;
     color: #926239;
     line-height: 1.6;
     background: #f4f4f4;
+    min-height: 100vh;
 }
 /*
 TODO: kosnadsfri rådgivning
@@ -113,12 +117,12 @@ TA BORT BR
     display: flex;
     box-sizing: border-box;
     background: #c7c6c61f;
-    /*box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.75);*/
 }
 
  .por1:hover {
   
    box-shadow: 5px 5px 15px rgb(0,0,0,0.6);
+   transform: scale(1.2);
    
  }
 
@@ -150,9 +154,12 @@ TA BORT BR
     justify-content: center;
     align-items: center;
     
+    
 }
 
-
+#section-a {
+ 
+}
 
 
 nav {
@@ -249,13 +256,10 @@ input {
     }
   
     footer {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      left: 0;
       padding: 10px;
       background-color: #926239;
       text-align: center;
+      margin-top: auto;
   } 
 
   footer p {
